@@ -54,6 +54,9 @@ img{
 
 
 .wrap{
+    display:flex;
+    flex-direction: column;
+    gap : 42px 0px;
     width: 1286px;
     color:#3F5D45;
     font-size: 14px;
@@ -67,7 +70,6 @@ img{
     }
     .content-small{
         background-color: #EAF0ED;
-        margin-bottom: 42px;
         padding: 24px 28px 24px 28px;
         img{
             width: 52px;
@@ -93,7 +95,6 @@ img{
     }
     .content-medium{
         background-color: #EAF0ED;
-        margin-bottom: 42px;
         padding: 12px 40px 12px 40px;
         img{
             width: 92px;
