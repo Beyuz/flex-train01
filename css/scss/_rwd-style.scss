@@ -1,0 +1,21 @@
+
+@media (max-width:660px){
+    .container{
+        .content{
+            ul{
+                li{
+                    padding:0px 12px 0px 12px;
+                    h2{
+                        color:red;
+                    }
+                    .letter{
+                        .label{
+                            column-gap: 23px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}
